@@ -10,116 +10,157 @@
 
 </head>
 <body>
-<!--    <header class="main-header">
+  <header class="main-header">
 
-        <input type="checkbox" id="menu">
+    <input type="checkbox" id="menu">
 
-        <section class="social-contact_container">   
-        
-            <article class="contact-header__nav-list" >
-                        
-                
-                    <div> 
-                        <i class="fas fa-headset fa-2x"></i>
-                    </div> 
-                    <p class="contact-header__nav-item-0800">  <strong> 0800 ... .... </strong> </p>
-                    <p>  Atención al cliente </p>
-            
-                </article>
-                
-                <article class="social-header__nav-list">              
-                    <p>  Seguinos </p>   
-                    <div class="social-header__nav-item">    
-                        <i class="fab fa-facebook fa-1x"></i>
-                        <i class="fab fa-instagram fa-1x"></i>
-                        <i class="fab fa-twitter fa-1x"></i>
-                        <i class="fab fa-youtube fa-1x"></i>
-                    </div>
-                
-                </article>
-                
-            </section>
+    <section class="social-contact_container">   
 
-<div class="nav-bar" >
-    <ul class="nav-bar__nav-list">
+    <article class="contact-header__nav-list" >
+
+      <div> 
+      <i class="fas fa-headset fa-2x"></i>
+      </div> 
+      <p class="contact-header__nav-item-0800">  <strong> 0800 ... .... </strong> </p>
+      <p>  Atención al cliente </p>
+
+    </article>
+
+      <article class="social-header__nav-list">              
+      <p>  Seguinos </p>   
+      <div class="social-header__nav-item">    
+      <i class="fab fa-facebook fa-1x"></i>
+      <i class="fab fa-instagram fa-1x"></i>
+      <i class="fab fa-twitter fa-1x"></i>
+      <i class="fab fa-youtube fa-1x"></i>
+      </div>
+
+    </article>
+
+    </section>
+
+      <div class="nav-bar" >
+      
+        <ul class="nav-bar__nav-list">
         <li class="nav-bar__nav-item"><a href="index.html">Inicio</a></li>
         <li class="nav-bar__nav-item"><a href="alta.html">Alta</a></li>
         <li class="nav-bar__nav-item" ><a href="contacto.html">Contacto</a></li>
         <li class="nav-bar__nav-item" ><a href="nosotros.html">Nosotros</a></li>
-      </ul>
+        </ul>
+      
     </div>
 
-        <div class="search-bar">
-            <div class="search-bar__logo-container">
-                <i class="fas fa-braille fa-2x"></i> 
-                <p>Connecticus</p> 
-            </div>  
-            <div class="search-bar__form-container">
-                 <input class="search-bar__form-search" id="busqueda" type="search" placeholder="¿Qué estás buscando?">
-                
-                 <i style="color:white; background-color:red; padding: 5px; border-radius: 50%;" class="fas fa-search fa-2x"></i>
-                
-            </div>
-            
-            <div class="search-bar__start-session-container">
-                <button>INICIAR SESIÓN</button>    
-            </div>
-            
-            
-            <div class="search-bar__carrito-container">
-                <i class="fas fa-shopping-cart fa-2x"></i>
-            </div>
-            
-            <div class="menu-toggle">
-                <label class="menu-toggle__label" for="menu">
-                    <span class="menu-toggle__pan-arriba"></span>
-                    <span class="menu-toggle__medallon"></span>
-                    <span class="menu-toggle__pan-abajo"></span>
-                </label>
-            </div>
-        </div>
+    <div class="search-bar">
+      <div class="search-bar__logo-container">
+        <i class="fas fa-braille fa-2x"></i> 
+        <p>Connecticus</p> 
+      </div>  
+    <div class="search-bar__form-container">
+      <input class="search-bar__form-search" id="busqueda" type="search" placeholder="¿Qué estás buscando?">
 
-    </header>  -->
-    <main>
+      <i style="color:white; background-color:red; padding: 5px; border-radius: 50%;" class="fas fa-search fa-2x"></i>
 
-        Definir validaciones de HTML 5 (Form Validation) y tipos de elementos de manera fundamentada.
+    </div>
 
-        nombre, ok 
-        precio, 
-        stock, 
-        marca, 
-        categoria, 
-        foto, 
-        detalles, ok 
-        envio_sin_cargo. 
+    <div class="search-bar__start-session-container">
+      <button>INICIAR SESIÓN</button>    
+    </div>
 
 
-        <form class="form" action="" method="">
-            <ul class="form__ul">
-             <li class="form__li"> 
-               <label for="name">Nombre:</label>
-               <input type="text" id="name" name="user_name">
-                <!-- It represents a basic single-line text field that accepts any kind of text input.-->
-             </li>
-             <li>
-               <label for="details">Detalles:</label>
-               <textarea id="details" name="prod_details">Detalles del producto</textarea>
-             </li>
-             <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
+    <div class="search-bar__carrito-container">
+    <i class="fas fa-shopping-cart fa-2x"></i>
+    </div>
 
-            </ul>
-            
-              
+    <div class="menu-toggle">
+      <label class="menu-toggle__label" for="menu">
+      <span class="menu-toggle__pan-arriba"></span>
+      <span class="menu-toggle__medallon"></span>
+      <span class="menu-toggle__pan-abajo"></span>
+    </label>
+    </div>
+    
+  </div>
+
+  </header> 
+  <main>  
   
-        </form>
-           
+    <!-- Formulario -->
+
+  <div class="containerAlta">
+
+    <h1 class="containerAlta__heading">Alta productos</h1>
+
+    <p class="containerAlta__requiredFieldsLegend">Los campos obligatorios estan marcados con un <strong><abbr title="required">*</abbr></strong>.</p>
 
 
+  <form class="form">
+
+<!-- Input Nombre -->
+
+  <label for="productName">
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-nombre" placeholder="Nombre del producto" type="text" id="productName" name="productName">
 
 
-    </main>
-    <footer></footer>
+  <!-- Input Precio -->
+
+ 
+  <label for="price">
+  <span></span>
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-precio" placeholder="Precio del producto" type="number" id="price" name="productPrice">
+ 
+
+  <!-- Input Stock -->
+
+  
+  <label for="stock">
+  <span></span>
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-stock" placeholder="Stock del producto" type="number" id="stock" name="productStock">
+     
+
+  <!-- Input Marca -->      
+
+  <label for="productBrand">
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-marca" placeholder="Marca del producto" type="text" id="productBrand" name="productBrand">
+
+  <!-- Input Categoria -->
+
+  <label for="productCategory">
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-categoria" placeholder="Categoria del producto" type="text" id="productCategory" name="productCategory">
+
+  <!-- Input Detalles -->
+
+  <label for="productDetails">
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-detalles" placeholder="Detalles del producto" type="text" id="productDetails" name="productDetails">
+
+  <!-- Input Foto -->
+
+  <label for="productPhoto">
+  <strong><abbr title="required">*</abbr></strong>
+  </label>
+  <input class="form__input-foto" placeholder="Foto del producto" type="text" id="productPhoto" name="productPhoto">    
+                
+  <!-- Campo de Envio -->
+  <label for="envio">Envio sin cargo</label>
+  <input id="envio" type="checkbox">
+
+  <button class="btn__alta" type="submit">Dar de Alta</button>
+
+  </form>
+  </div>   
+
+  </main>
+  <footer></footer>
 </body>
 </html>

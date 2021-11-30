@@ -404,18 +404,97 @@ body {
   color: #DC1E0F;
 }
 
+.containerAlta {
+  padding: 10px;
+  margin: 25px;
+  width: 700px;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.containerAlta__requiredFieldsLegend {
+  font-style: italic;
+  font-size: 10px;
+}
+
+.form__input-nombre, .form__input-precio, .form__input-stock, .form__input-marca, .form__input-categoria, .form__input-detalles, .form__input-foto, .form__input-nombreContacto, .form__input-emailContacto, .form__input-comentariosContacto {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  display: inline;
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+}
+
+.btn__alta {
+  display: block;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 0px;
+  width: auto;
+  line-height: auto;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #DC1E0F;
+  border-radius: 10px;
+}
+
+/*
+    @media (min-width: 426px) and (max-width: 768px) {
+        & {
+            min-width: 100%;
+            height: 200px;
+        }
+        &__article {
+            display: flex;
+        }
+        &__image {
+            width: 40%;
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+        }
+        &__content {
+            top: 0;
+            padding-left: 45%;
+        }
+    }
+*/
 body {
   width: 100%;
   margin: 0 auto;
-  height: auto;
+  height: 3000px;
+  background-color: #f1f2f3;
 }
 
-body {
+.containerFooter {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  margin: 0 auto;
-  height: auto;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-weight: bold;
+  border: red 2 px solid;
 }
 
+/* .containerFooter__caja#1,
+.containerFooter__caja#2,
+.containerFooter__caja#3,
+.containerFooter__caja#4 {
+    background-color:blue;
+    height: 100px;
+    width: 100%;
+
+} */
 .section-cards {
   background-color: #f1f2f3;
   padding: 1em;
