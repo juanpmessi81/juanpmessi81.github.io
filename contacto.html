@@ -1,133 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/436e5f3682.js" crossorigin="anonymous"></script>    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/436e5f3682.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
   <header class="main-header">
 
     <input type="checkbox" id="menu">
 
-    <section class="social-contact_container">   
+    <section class="social-contact_container">
 
-    <article class="contact-header__nav-list" >
+      <article class="contact-header__nav-list">
 
-      <div> 
-      <i class="fas fa-headset fa-2x"></i>
-      </div> 
-      <p class="contact-header__nav-item-0800">  <strong> 0800 ... .... </strong> </p>
-      <p>  Atención al cliente </p>
+        <div>
+          <i class="fas fa-headset fa-2x"></i>
+        </div>
+        <p class="contact-header__nav-item-0800"> <strong> 0800 ... .... </strong> </p>
+        <p> Atención al cliente </p>
 
-    </article>
+      </article>
 
-      <article class="social-header__nav-list">              
-      <p>  Seguinos </p>   
-      <div class="social-header__nav-item">    
-      <i class="fab fa-facebook fa-1x"></i>
-      <i class="fab fa-instagram fa-1x"></i>
-      <i class="fab fa-twitter fa-1x"></i>
-      <i class="fab fa-youtube fa-1x"></i>
-      </div>
+      <article class="social-header__nav-list">
+        <p> Seguinos </p>
+        <div class="social-header__nav-item">
+          <i class="fab fa-facebook fa-1x"></i>
+          <i class="fab fa-instagram fa-1x"></i>
+          <i class="fab fa-twitter fa-1x"></i>
+          <i class="fab fa-youtube fa-1x"></i>
+        </div>
 
-    </article>
+      </article>
 
     </section>
 
-      <div class="nav-bar" >
-      
-        <ul class="nav-bar__nav-list">
+    <div class="nav-bar">
+
+      <ul class="nav-bar__nav-list">
         <li class="nav-bar__nav-item"><a href="index.html">Inicio</a></li>
         <li class="nav-bar__nav-item"><a href="alta.html">Alta</a></li>
-        <li class="nav-bar__nav-item" ><a href="contacto.html">Contacto</a></li>
-        <li class="nav-bar__nav-item" ><a href="nosotros.html">Nosotros</a></li>
-        </ul>
-      
+        <li class="nav-bar__nav-item"><a href="contacto.html">Contacto</a></li>
+        <li class="nav-bar__nav-item"><a href="nosotros.html">Nosotros</a></li>
+      </ul>
+
     </div>
 
     <div class="search-bar">
       <div class="search-bar__logo-container">
-        <i class="fas fa-braille fa-2x"></i> 
-        <p>Connecticus</p> 
-      </div>  
-    <div class="search-bar__form-container">
-      <input class="search-bar__form-search" id="busqueda" type="search" placeholder="¿Qué estás buscando?">
+        <i class="fas fa-braille fa-2x"></i>
+        <p>Connecticus</p>
+      </div>
+      <div class="search-bar__form-container">
+        <input class="search-bar__form-search" id="busqueda" type="search" placeholder="¿Qué estás buscando?">
 
-      <i style="color:white; background-color:red; padding: 5px; border-radius: 50%;" class="fas fa-search fa-2x"></i>
+        <i style="color:white; background-color:red; padding: 5px; border-radius: 50%;" class="fas fa-search fa-2x"></i>
+
+      </div>
+
+      <div class="search-bar__start-session-container">
+        <button>INICIAR SESIÓN</button>
+      </div>
+
+
+      <div class="search-bar__carrito-container">
+        <i class="fas fa-shopping-cart fa-2x"></i>
+      </div>
+
+      <div class="menu-toggle">
+        <label class="menu-toggle__label" for="menu">
+          <span class="menu-toggle__pan-arriba"></span>
+          <span class="menu-toggle__medallon"></span>
+          <span class="menu-toggle__pan-abajo"></span>
+        </label>
+      </div>
 
     </div>
 
-    <div class="search-bar__start-session-container">
-      <button>INICIAR SESIÓN</button>    
-    </div>
+  </header>
+  <main>
 
-
-    <div class="search-bar__carrito-container">
-    <i class="fas fa-shopping-cart fa-2x"></i>
-    </div>
-
-    <div class="menu-toggle">
-      <label class="menu-toggle__label" for="menu">
-      <span class="menu-toggle__pan-arriba"></span>
-      <span class="menu-toggle__medallon"></span>
-      <span class="menu-toggle__pan-abajo"></span>
-    </label>
-    </div>
-    
-  </div>
-
-  </header> 
-  <main>  
-  
     <!-- Formulario -->
 
-  <div class="containerAlta">
+    <div class="containerAlta">
 
-    <h1 class="containerAlta__heading">Alta productos</h1>
+      <h1 class="containerAlta__heading">Alta productos</h1>
 
-    <p class="containerAlta__requiredFieldsLegend">Los campos obligatorios estan marcados con un <strong><abbr title="required">*</abbr></strong>.</p>
-
-
-  <form class="form">
-
-<!-- Input Nombre & Apellido -->
-
-  <label for="contactName">
-  <strong><abbr title="required">*</abbr></strong>
-  </label>
-  <input class="form__input-nombreContacto" placeholder="Nombre & Apellido" type="text" id="contactName" name="contactName">
+      <p class="containerAlta__requiredFieldsLegend">Los campos obligatorios estan marcados con un <strong><abbr
+            title="required">*</abbr></strong>.</p>
 
 
-  <!-- Input E-mail -->
+      <form class="form">
 
- 
-  <label for="email">
-  <span></span>
-  <strong><abbr title="required">*</abbr></strong>
-  </label>
-  <input class="form__input-emailContacto" placeholder="email" type="email" id="email" name="contactEmail">
- 
+        <!-- Input Nombre & Apellido -->
 
-  <!-- Input Comentarios -->
+        <label for="contactName">
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input class="form__input-nombreContacto" placeholder="Nombre & Apellido" type="text" id="contactName"
+          name="contactName">
 
-  
-  <label for="comments">
-  <span></span>
-  <strong><abbr title="required">*</abbr></strong>
-  </label>
-  <input class="form__input-comentariosContacto" placeholder="Comentarios" type="text" id="comments" name="comments">
-     
-  <button class="btn__alta" type="submit">Dar de Alta</button>
 
-  </form>
-  </div>   
+        <!-- Input E-mail -->
+
+
+        <label for="email">
+          <span></span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input class="form__input-emailContacto" placeholder="email" type="email" id="email" name="contactEmail">
+
+
+        <!-- Input Comentarios -->
+
+
+        <label for="comments">
+          <span></span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input class="form__input-comentariosContacto" placeholder="Comentarios" type="text" id="comments"
+          name="comments">
+
+        <button class="btn__alta" type="submit">Dar de Alta</button>
+
+      </form>
+    </div>
 
   </main>
-  <footer></footer>
+  <footer>
+    <div class="containerFooter">
+
+      <div class="containerFooter__caja1">
+
+        <div class="containerFooter__caja1-nav-list">
+          <div class="containerFooter__caja1__nav-item ">
+            <div class="containerFooter__caja1__nav-itemLogo">
+
+              <i class="fas fa-braille fa-2x"></i>
+              <p>Connecticus</p>
+
+            </div>
+            <div class="containerFooter__caja1__nav-itemSocial">
+              <p> Seguinos </p>
+              <i class="fab fa-facebook fa-1x"></i>
+              <i class="fab fa-instagram fa-1x"></i>
+              <i class="fab fa-twitter fa-1x"></i>
+              <i class="fab fa-youtube fa-1x"></i>
+            </div>
+          </div>
+
+          <button class="containerFooter__caja1-btn  ">botón de arrepentimiento</button>
+
+
+        </div>
+
+
+      </div>
+      <div class="containerFooter__caja2">
+        <h1>Categoria</h1>
+        <ul class="containerFooter__caja2-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+
+      </div>
+      <div class="containerFooter__caja3">
+
+        <h1>Institucional</h1>
+        <ul class="containerFooter__caja2-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+
+
+      </div>
+      <div class="containerFooter__caja4">
+        <h1>Legales</h1>
+        <ul class="containerFooter__caja2-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
 </body>
+
 </html>
